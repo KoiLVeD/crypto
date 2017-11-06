@@ -1,0 +1,112 @@
+.b-title {
+    background-image: url("../images/bg__pages.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+  background-color: #1d80e5;
+  .container {
+    position: relative;
+    z-index: 100;
+  }
+  .b-first__light {
+    z-index: 10;
+    top: -61%;
+    left: 21%;
+  }
+  &__wrap {
+    position: relative;
+    padding-top: 220px;
+    padding-bottom: 190px;
+    h1 {
+      position: relative;
+      font-family: @Intro;
+      color:  #ffffff;
+      font-size: 72px;/* Приближение из-за подстановки шрифтов */
+      font-weight: 400;
+      line-height: 1;/* Приближение из-за подстановки шрифтов */
+      text-align: left;
+      padding-top: 25px;
+      margin: 0;
+      margin-left: 52px;
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 36px;
+        height: 6px;
+        background-color: #fff;
+      }
+    }
+    & > p {
+      position: absolute;
+      font-family: @Intro;
+      color:  #ffffff;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1;
+      text-align: left;
+      margin-top: 16px;
+      margin-bottom: 0;
+      margin-left: 58px;
+    }
+  }
+  .b-line {
+    z-index: -1;
+    div {
+      &:first-child {
+        background-color: transparent;
+
+      }
+      &:last-child {
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-color: #7fa3eb;
+          width: 100%;
+          height: 70%;
+          z-index: 10;
+        }
+
+      }
+    }
+  }
+
+  &--second {
+    .b-line {
+      left: -39px;
+      z-index: -1;
+
+      div {
+        background-color: #99b2e0;
+        &:first-child {
+          background-color: #99b2e0;
+            height: 68%;
+        }
+        &:nth-child(3) {
+          height: 60%;
+        }
+        &:last-child {
+          position: relative;
+          z-index: 1;
+          background-color: transparent;
+          &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #7fa3eb;
+            width: 100%;
+            height: 70%;
+            z-index: 10;
+          }
+
+        }
+      }
+    }
+  }
+}

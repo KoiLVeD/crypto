@@ -1,0 +1,85 @@
+footer {
+  position: relative;
+  z-index: 100;
+  background-color: #fff;
+}
+.b-footer {
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1);
+  &__wrap {
+    p {
+      font-family: @Roboto;
+      color:  @blue;
+      font-size: 13px;/* Приближение из-за подстановки шрифтов */
+      font-weight: 400;
+      line-height: 18px;/* Приближение из-за подстановки шрифтов */
+      text-align: left;
+      margin: 0;
+    }
+  }
+  &__top {
+    position: relative;
+    width: 1064px;
+    height: 52px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100vw;
+      height: 1px;
+      left: ~"calc((100vw - 1064px + 17px) / -2)";
+      right: 0;
+      bottom: 0;
+      background-color: rgba(208, 214, 218, 0.37);;
+    }
+  }
+  &__logo {
+    a {
+      display: block;
+      margin: 0 auto;
+      &:first-child {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 173px;
+  }
+  &__center {
+    align-self: flex-start;
+    .b-header__list {
+      margin-bottom: 25px;
+      & > a {
+        padding-top: 16px;
+        color: @blue;
+        &:after {
+          top: 0;
+        }
+        &:hover {
+          &:after {
+            background-color: @blue;
+          }
+        }
+        &.active {
+          &:after {
+            top: 0;
+            background-color: @blue;
+          }
+        }
+      }
+    }
+  }
+  &__addres {
+
+  }
+  &__copy {
+      margin-top: 34px;
+  }
+  &__social {
+
+  }
+}

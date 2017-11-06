@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1404, initial-scale=0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
+</head>
+<body >
+<div id="auth" class="white-popup mfp-hide">
+    <div  class="popup-auth  b-lk-content">
+        <div class="popup-close"></div>
+        <div class="popup-auth__wrap">
+        <div class="popup-auth__title">
+            Авторизация
+        </div>
+        <form action="">
+            <input type="text" placeholder="Логин" required>
+            <input type="password" placeholder="Пароль" required>
+            <div class="popup-auth__links">
+                <p>Забыли пароль?</p>
+                <a href="">Восстановление</a>
+            </div>
+            <button class="btn btn--full btn--full-blue btn--lk">Вход</button>
+            <div class="popup-auth__divider"></div>
+            <div class="popup-auth__links">
+                <p>Еще не зарегистрированы? </p>
+                <a href="">Создать аккаунт</a>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+
+<div id="registr" class="white-popup mfp-hide">
+    <div  class="popup-auth popup-auth--registr b-lk-content">
+        <div class="popup-close"></div>
+        <div class="popup-auth__wrap">
+            <div class="popup-auth__title">
+                Регистрация
+            </div>
+            <form action="">
+                <input type="text" placeholder="Имя" required>
+                <input type="text" placeholder="Логин" required>
+                <input type="password" placeholder="Пароль" required>
+
+                <input type="email" placeholder="E-mail" required>
+                <input type="text" placeholder="Cекретное слово" required>
+
+                <h3>Мои кошельки:</h3>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-1.png" alt="">
+                </div>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-2.png" alt="">
+                </div>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-3.png" alt="">
+                </div>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-4.png" alt="">
+                </div>
+
+                <button class="btn btn--full btn--full-blue btn--lk">Зарегистрироваться</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<header id="up">
+    <div class="b-header">
+        <div class="container">
+            <div class="b-header__wrap">
+                <a href="" class="b-header__logo"><img src="./images/logo-white.png" alt="cryptobox"></a>
+                <div class="b-header__list">
+                    <a href="index.html" class="active">Главная</a>
+                    <a href="invest.html">Инвестиции</a>
+                    <a href="partner.html">Партнерам</a>
+                    <a href="faq.html" >FAQ</a>
+                    <a href="news.html">Новости</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+                <div class="b-header__registration">
+                    <a href="#registr" class="btn btn--hover-white js-popup">Регистрация</a>
+                    <a href="#auth" class="btn btn--full btn--hover-blue js-popup">Вход</a>
+                    <div class="b-header__lang">
+                        <a href="" class="btn btn--full btn--lang">
+                            RU
+                        </a>
+                        <a href="" class="btn btn--full btn--lang">
+                            EN
+                        </a>
+                        <a href="" class="btn btn--full btn--lang">
+                            PL
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<div class="b-first">
+    <div class="container">
+        <div class="b-first__wrap">
+            <div class="b-first__title">
+                <div class="title-box">
+                    <h2>Будущее зависит <span>от тебя</span></h2>
+                    <a href="#" class="btn btn--start">начать</a>
+                </div>
+            </div>
+            <div class="b-first__light"></div>
+            <div class="b-first__img">
+                <img class="js-animate-load" src="./images/terminal.png" alt="">
+            </div>
+            <div class="b-first__social">
+                <div class="social social--white">
+                    <a href="#" class="social__link social__link--fb"></a>
+                    <a href="#" class="social__link social__link--vk"></a>
+                    <a href="#" class="social__link social__link--yt"></a>
+                    <a href="#" class="social__link social__link--google"></a>
+                </div>
+            </div>
+            <a href="#more" class="b-first__down js-scroll-down">Подробнее</a>
+        </div>
+        <div class="b-line">
+            <div></div>
+            <div></div>
+            <div>
+                <img data-50="transform:translate3d(0,0px,0);"
+                     data-750="transform:translate3d(0,250px,0);" class="" src="./images/animate/crypto-light.png" alt="">
+            </div>
+
+            <div>
+
+            </div>
+            <div></div>
+            <div></div>
+
+            <div>
+                <img data-50="transform:translate3d(0,0px,0);"
+                     data-850="transform:translate3d(0,-350px,0);" class="" src="./images/animate/box-light.png" alt="box">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="more" class="b-second">
+    <div class="container">
+        <div class="b-second__wrap">
+            <div class="b-second__title">
+                <h2>
+                    О НАС
+                </h2>
+                <span
+                        data-300="transform:translate3d(-300px,0,0);"
+                        data-700="transform:translate3d(0,0,0);"
+                >01</span>
+            </div>
+            <div class="b-second__map js-show-map">
+                <div class="b-second__map-background"></div>
+                <div class="b-second__loop">
+                    <img src="./images/loop.png" alt="">
+                </div>
+            </div>
+            <div class="b-second__text">
+                <h3>
+                    Доход от инноваций теперь доступен каждому!
+                </h3>
+                <p>
+                    Компания CryptoBox Group занимается установкой и обслуживанием
+                    терминалов с 2016 года. Мы разработали терминалы, при помощи
+                    которых каждый желающий может обналичить свои Bitcoin, получив
+                    наличные по текущему курсу в местной валюте своей страны.
+                </p>
+                <p>
+                    Криптовалюты стали одним из главных трендов 2017 года. Каждую
+                    неделю количество владельцев электронных кошельков биткоин
+                    пополняется более, чем на 1000. Не удивительно, что спрос
+                    на банкоматы CryptoBox также увеличивается с каждым днем.
+                    Бурный рост позволяет получить немалую прибыль. CryptoBox Group
+                    выбрала для своего бизнеса устойчивое направление – мы берем
+                    фиксированную комиссию с каждой транзакции.
+                </p>
+                <p>
+                    Наша компания активно развивается, ведь сфера Bitcoin-терминалов
+                    сейчас только зарождается в самых передовых странах. Мы быстро
+                    расширяем географию, устанавливая свои терминалы по всему миру.
+                </p>
+                <p>
+                    Чтобы эффективно развивать свой бизнес, мы каждый день
+                    инвестируем средства для манетизации CryptoBox Group. Компания
+                    предоставляет каждому новому инвестору возможность получать
+                    ежедневно максимум, пропорционально величине их вклада.
+                </p>
+            </div>
+        </div>
+        <div class="b-line">
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<div class="b-third">
+    <div class="container">
+        <div class="b-third__wrap">
+            <div class="b-third__title">
+                <h2>
+                    Видео <br>
+                    Презентация
+                </h2>
+                <span
+                        data-1000="transform:translate3d(-300px,0,0);"
+                        data-1300="transform:translate3d(0,0,0);"
+                >02</span>
+            </div>
+            <div class="b-third__bottom">
+                <div class="b-third__video">
+                    <div class="b-third__video-inner">
+                        <div class="b-third__video-button js-play-video"></div>
+                        <iframe width="620" height="390" src="https://www.youtube.com/embed/K4wEI5zhHB0?rel=0&showinfo=0&color=white"  frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="b-third__info">
+                    <img src="./images/ico/logo-video.png" alt="">
+                    <div class="b-third__info-serf">
+                        <p>
+                                    <span>
+                                        CRYPTOCASH LIMITED
+                                    </span>
+                            <span>
+                                        официально зарегистрированная компания № 10754977
+                                    </span>
+                        </p>
+                        <a href="" target="_blank" class="btn btn--full btn--pdf">СЕРТИФИКАТ</a>
+                    </div>
+                    <div class="b-third__info-protect">
+                        <img src="./images/ico/sec-icon-protec.png" alt="">
+                        <img src="./images/ico/ssl.png" alt="">
+                        <img src="./images/ico/comodo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="b-line">
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<div class="b-fourth">
+    <div class="container">
+        <div class="b-fourth__wrap">
+            <div class="b-fourth__title">
+                <h2>
+                    Наши <br>
+                    преимущества
+                </h2>
+                <span
+                        data-1800="transform:translate3d(-300px,0,0);"
+                        data-2200="transform:translate3d(0,0,0);"
+                >03</span>
+            </div>
+            <div class="b-fourth__list">
+                <div class="b-fourth__row b-fourth__row--top">
+                    <div class="b-fourth__card"
+                         data-2000="transform:translate3d(0,-80px,0);"
+                         data-2700="transform:translate3d(0,20px,0);"
+                    >
+                        <img src="./images/ico-advantages/icons_terminal_Bystryi_vivod_sredstv.png" alt="Быстрый вывод средств">
+                        <p>Быстрый вывод средств</p>
+                    </div>
+                    <div class="b-fourth__card"
+                         data-2000="transform:translate3d(0,-80px,0);"
+                         data-2700="transform:translate3d(0,20px,0);">
+
+                        <img src="./images/ico-advantages/icons_terminal_Partnerskaya_programma.png" alt="Выгодная партнерская программа">
+                        <p>Выгодная партнерская программа</p>
+                    </div>
+                </div>
+                <div class="b-fourth__row b-fourth__row--center">
+                    <div class="b-fourth__card b-fourth__card--blue"
+                         data-2200="transform:translate3d(0,-80px,0);"
+                         data-2800="transform:translate3d(0,20px,0);">
+                        <img src="./images/ico-advantages/icons_terminal_Bez_komissii--white.png" alt="Без комиссии">
+                        <p>Без <br>
+                            комиссии</p>
+                    </div>
+                    <div class="b-fourth__card"
+                         data-2200="transform:translate3d(0,-80px,0);"
+                         data-2800="transform:translate3d(0,20px,0);">
+                        <img src="./images/ico-advantages/icons_terminal_Bolshoi_vibor_metodov_oplaty.png" alt="Большой выбор доступных методов оплаты">
+                        <p>Большой выбор доступных методов оплаты</p>
+                    </div>
+                </div>
+                <div class="b-fourth__row b-fourth__row--bottom">
+                    <div class="b-fourth__card"
+                         data-2300="transform:translate3d(0,-80px,0);"
+                         data-2900="transform:translate3d(0,20px,0);">
+                        <img src="./images/ico-advantages/icons_terminal_Ydobnaya_sistema_vedeniya_otchetnosti.png" alt="Удобная система ведения отчетности">
+                        <p>Удобная система ведения отчетности</p>
+                    </div>
+                    <div class="b-fourth__card"
+                         data-2300="transform:translate3d(0,-80px,0);"
+                         data-2900="transform:translate3d(0,20px,0);">
+                        <img src="./images/ico-advantages/icons_terminal_Myltiyazichnii_interfece.png" alt="Мультиязычный интерфейс">
+                        <p>Мультиязычный интерфейс</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="b-line">
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<div class="b-fifth">
+    <div class="container">
+        <a data-2400="transform:translate3d(300px,0px,0);"
+           data-2750=transform:translate3d(0,0px,0);"
+           data-3000="transform:translate3d(0,400px,0);"
+           href="#up" class="b-first__down b-first__down--up js-scroll-down">Назад</a>
+        <div class="b-fifth__wrap">
+            <div class="b-fifth__title">
+                <h2>
+                    Платежные <br>
+                    системы
+                </h2>
+                <span
+                        data-2400="transform:translate3d(-300px,0,0);"
+                        data-2800="transform:translate3d(0,0,0);"
+
+                >04</span>
+            </div>
+            <div class="b-fifth__img">
+                <div class="b-fifth__img-wrap">
+                    <img src="./images/ico-system/advcash-logo.png" alt="advcash">
+                    <img src="./images/ico-system/Bitcoin_Logo.png" alt="Bitcoin">
+                    <img src="./images/ico-system/payeer.png" alt="payeer">
+                    <img src="./images/ico-system/logo-perfect-money.png" alt="perfect money">
+                </div>
+            </div>
+
+        </div>
+        <div class="b-line">
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div>
+                <img data-2400="transform:translate3d(0,0px,0);"
+                     data-3100="transform:translate3d(0,400px,0);" src="./images/animate/crypto-light.png" alt="">
+            </div>
+            <div>
+                <img data-2400="transform:translate3d(0,0px,0);"
+                     data-3100="transform:translate3d(0,-400px,0);" src="./images/animate/box-light.png" alt="">
+            </div>
+
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="b-footer">
+        <div class="container">
+            <div class="b-footer__wrap">
+                <div class="b-footer__top">
+                    <div class="currency cur">
+                        <script type="text/javascript">
+                            crypt_multi_num_cur = "7";
+                            crypt_base_cur_0 = "Bitcoin (BTC)";
+                            crypt_target_cur_0 = "US Dollar (USD)";
+                            crypt_base_cur_1 = "Litecoin (LTC)";
+                            crypt_target_cur_1 = "US Dollar (USD)";
+                            crypt_base_cur_2 = "Dogecoin (DOGE)";
+                            crypt_target_cur_2 = "US Dollar (USD)";
+                            crypt_base_cur_3 = "Peercoin (PPC)";
+                            crypt_target_cur_3 = "US Dollar (USD)";
+                            crypt_base_cur_4 = "Zcash (ZEC)";
+                            crypt_target_cur_4 = "US Dollar (USD)";
+                            crypt_base_cur_5 = "Dash (DASH)";
+                            crypt_target_cur_5 = "US Dollar (USD)";
+                            crypt_base_cur_6 = "Ethereum (ETH)";
+                            crypt_target_cur_6 = "US Dollar (USD)";
+                            crypt_multi_border_corners = "square";
+                            crypt_multi_display_time = false;</script>
+                        <script type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
+                    </div>
+                </div>
+                <div class="b-footer__menu">
+                    <div class="b-footer__logo">
+                        <a href="/">
+                            <img src="./images/logo.png" alt="">
+                        </a>
+                        <a href="" class="btn btn--blue">Начать</a>
+                    </div>
+                    <div class="b-footer__center">
+                        <div class="b-header__list">
+                            <a href="" class="active">Главная</a>
+                            <a href="">Инвестиции</a>
+                            <a href="">Партнерам</a>
+                            <a href="">FAQ</a>
+                            <a href="">Новости</a>
+                            <a href="">Контакты</a>
+                        </div>
+                        <div class="b-footer__address">
+                            <p>London,  38A ST. JAMES'S STREET</p>
+                            <p>E17 7PE </p>
+                        </div>
+                    </div>
+                    <div class="b-footer__social">
+                        <div class="social">
+                            <a href="#" class="social__link social__link--fb"></a>
+                            <a href="#" class="social__link social__link--vk"></a>
+                            <a href="#" class="social__link social__link--yt"></a>
+                            <a href="#" class="social__link social__link--google"></a>
+                        </div>
+                        <div class="b-footer__copy">
+                            <p>© 2017 CryptoBox </p>
+                            <p>S.L. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="./js/bundle.js"></script>
+</body>
+</html>
